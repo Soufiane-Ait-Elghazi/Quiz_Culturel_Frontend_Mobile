@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28A87BA280C8A0100F0998F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A87B9280C8A0100F0998F /* AppDelegate.swift */; };
+		E28A87BC280C8A0100F0998F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A87BB280C8A0100F0998F /* SceneDelegate.swift */; };
+		E28A87BE280C8A0100F0998F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A87BD280C8A0100F0998F /* ViewController.swift */; };
+		E28A87C1280C8A0100F0998F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28A87BF280C8A0100F0998F /* Main.storyboard */; };
+		E28A87C3280C8A0400F0998F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28A87C2280C8A0400F0998F /* Assets.xcassets */; };
+		E28A87C6280C8A0400F0998F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28A87C4280C8A0400F0998F /* LaunchScreen.storyboard */; };
+		E28A87D1280C8A0500F0998F /* CULTUROCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A87D0280C8A0500F0998F /* CULTUROCTests.swift */; };
+		E28A87DC280C8A0500F0998F /* CULTUROCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A87DB280C8A0500F0998F /* CULTUROCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28A87CD280C8A0500F0998F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28A87AE280C8A0100F0998F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28A87B5280C8A0100F0998F;
+			remoteInfo = CULTUROC;
+		};
+		E28A87D8280C8A0500F0998F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28A87AE280C8A0100F0998F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28A87B5280C8A0100F0998F;
+			remoteInfo = CULTUROC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28A87B6280C8A0100F0998F /* CULTUROC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CULTUROC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28A87B9280C8A0100F0998F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E28A87BB280C8A0100F0998F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E28A87BD280C8A0100F0998F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E28A87C0280C8A0100F0998F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28A87C2280C8A0400F0998F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28A87C5280C8A0400F0998F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E28A87C7280C8A0400F0998F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28A87CC280C8A0500F0998F /* CULTUROCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CULTUROCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28A87D0280C8A0500F0998F /* CULTUROCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CULTUROCTests.swift; sourceTree = "<group>"; };
+		E28A87D2280C8A0500F0998F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28A87D7280C8A0500F0998F /* CULTUROCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CULTUROCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28A87DB280C8A0500F0998F /* CULTUROCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CULTUROCUITests.swift; sourceTree = "<group>"; };
+		E28A87DD280C8A0500F0998F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28A87B3280C8A0100F0998F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A87C9280C8A0500F0998F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A87D4280C8A0500F0998F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28A87AD280C8A0100F0998F = {
+			isa = PBXGroup;
+			children = (
+				E28A87B8280C8A0100F0998F /* CULTUROC */,
+				E28A87CF280C8A0500F0998F /* CULTUROCTests */,
+				E28A87DA280C8A0500F0998F /* CULTUROCUITests */,
+				E28A87B7280C8A0100F0998F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28A87B7280C8A0100F0998F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28A87B6280C8A0100F0998F /* CULTUROC.app */,
+				E28A87CC280C8A0500F0998F /* CULTUROCTests.xctest */,
+				E28A87D7280C8A0500F0998F /* CULTUROCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28A87B8280C8A0100F0998F /* CULTUROC */ = {
+			isa = PBXGroup;
+			children = (
+				E28A87B9280C8A0100F0998F /* AppDelegate.swift */,
+				E28A87BB280C8A0100F0998F /* SceneDelegate.swift */,
+				E28A87BD280C8A0100F0998F /* ViewController.swift */,
+				E28A87BF280C8A0100F0998F /* Main.storyboard */,
+				E28A87C2280C8A0400F0998F /* Assets.xcassets */,
+				E28A87C4280C8A0400F0998F /* LaunchScreen.storyboard */,
+				E28A87C7280C8A0400F0998F /* Info.plist */,
+			);
+			path = CULTUROC;
+			sourceTree = "<group>";
+		};
+		E28A87CF280C8A0500F0998F /* CULTUROCTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28A87D0280C8A0500F0998F /* CULTUROCTests.swift */,
+				E28A87D2280C8A0500F0998F /* Info.plist */,
+			);
+			path = CULTUROCTests;
+			sourceTree = "<group>";
+		};
+		E28A87DA280C8A0500F0998F /* CULTUROCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28A87DB280C8A0500F0998F /* CULTUROCUITests.swift */,
+				E28A87DD280C8A0500F0998F /* Info.plist */,
+			);
+			path = CULTUROCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28A87B5280C8A0100F0998F /* CULTUROC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28A87E0280C8A0500F0998F /* Build configuration list for PBXNativeTarget "CULTUROC" */;
+			buildPhases = (
+				E28A87B2280C8A0100F0998F /* Sources */,
+				E28A87B3280C8A0100F0998F /* Frameworks */,
+				E28A87B4280C8A0100F0998F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CULTUROC;
+			productName = CULTUROC;
+			productReference = E28A87B6280C8A0100F0998F /* CULTUROC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28A87CB280C8A0500F0998F /* CULTUROCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28A87E3280C8A0500F0998F /* Build configuration list for PBXNativeTarget "CULTUROCTests" */;
+			buildPhases = (
+				E28A87C8280C8A0500F0998F /* Sources */,
+				E28A87C9280C8A0500F0998F /* Frameworks */,
+				E28A87CA280C8A0500F0998F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28A87CE280C8A0500F0998F /* PBXTargetDependency */,
+			);
+			name = CULTUROCTests;
+			productName = CULTUROCTests;
+			productReference = E28A87CC280C8A0500F0998F /* CULTUROCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28A87D6280C8A0500F0998F /* CULTUROCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28A87E6280C8A0500F0998F /* Build configuration list for PBXNativeTarget "CULTUROCUITests" */;
+			buildPhases = (
+				E28A87D3280C8A0500F0998F /* Sources */,
+				E28A87D4280C8A0500F0998F /* Frameworks */,
+				E28A87D5280C8A0500F0998F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28A87D9280C8A0500F0998F /* PBXTargetDependency */,
+			);
+			name = CULTUROCUITests;
+			productName = CULTUROCUITests;
+			productReference = E28A87D7280C8A0500F0998F /* CULTUROCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28A87AE280C8A0100F0998F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Soufiane AIT ELGHZI";
+				TargetAttributes = {
+					E28A87B5280C8A0100F0998F = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					E28A87CB280C8A0500F0998F = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = E28A87B5280C8A0100F0998F;
+					};
+					E28A87D6280C8A0500F0998F = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = E28A87B5280C8A0100F0998F;
+					};
+				};
+			};
+			buildConfigurationList = E28A87B1280C8A0100F0998F /* Build configuration list for PBXProject "CULTUROC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E28A87AD280C8A0100F0998F;
+			productRefGroup = E28A87B7280C8A0100F0998F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28A87B5280C8A0100F0998F /* CULTUROC */,
+				E28A87CB280C8A0500F0998F /* CULTUROCTests */,
+				E28A87D6280C8A0500F0998F /* CULTUROCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28A87B4280C8A0100F0998F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28A87C6280C8A0400F0998F /* LaunchScreen.storyboard in Resources */,
+				E28A87C3280C8A0400F0998F /* Assets.xcassets in Resources */,
+				E28A87C1280C8A0100F0998F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A87CA280C8A0500F0998F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A87D5280C8A0500F0998F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28A87B2280C8A0100F0998F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28A87BE280C8A0100F0998F /* ViewController.swift in Sources */,
+				E28A87BA280C8A0100F0998F /* AppDelegate.swift in Sources */,
+				E28A87BC280C8A0100F0998F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A87C8280C8A0500F0998F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28A87D1280C8A0500F0998F /* CULTUROCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28A87D3280C8A0500F0998F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28A87DC280C8A0500F0998F /* CULTUROCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28A87CE280C8A0500F0998F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28A87B5280C8A0100F0998F /* CULTUROC */;
+			targetProxy = E28A87CD280C8A0500F0998F /* PBXContainerItemProxy */;
+		};
+		E28A87D9280C8A0500F0998F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28A87B5280C8A0100F0998F /* CULTUROC */;
+			targetProxy = E28A87D8280C8A0500F0998F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E28A87BF280C8A0100F0998F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28A87C0280C8A0100F0998F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28A87C4280C8A0400F0998F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28A87C5280C8A0400F0998F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E28A87DE280C8A0500F0998F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E28A87DF280C8A0500F0998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28A87E1280C8A0500F0998F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CULTUROC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeux.CULTUROC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28A87E2280C8A0500F0998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CULTUROC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeux.CULTUROC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E28A87E4280C8A0500F0998F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CULTUROCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeux.CULTUROCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CULTUROC.app/CULTUROC";
+			};
+			name = Debug;
+		};
+		E28A87E5280C8A0500F0998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CULTUROCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeux.CULTUROCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CULTUROC.app/CULTUROC";
+			};
+			name = Release;
+		};
+		E28A87E7280C8A0500F0998F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CULTUROCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeux.CULTUROCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CULTUROC;
+			};
+			name = Debug;
+		};
+		E28A87E8280C8A0500F0998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CULTUROCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeux.CULTUROCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CULTUROC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28A87B1280C8A0100F0998F /* Build configuration list for PBXProject "CULTUROC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28A87DE280C8A0500F0998F /* Debug */,
+				E28A87DF280C8A0500F0998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28A87E0280C8A0500F0998F /* Build configuration list for PBXNativeTarget "CULTUROC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28A87E1280C8A0500F0998F /* Debug */,
+				E28A87E2280C8A0500F0998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28A87E3280C8A0500F0998F /* Build configuration list for PBXNativeTarget "CULTUROCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28A87E4280C8A0500F0998F /* Debug */,
+				E28A87E5280C8A0500F0998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28A87E6280C8A0500F0998F /* Build configuration list for PBXNativeTarget "CULTUROCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28A87E7280C8A0500F0998F /* Debug */,
+				E28A87E8280C8A0500F0998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E28A87AE280C8A0100F0998F /* Project object */;
+}
