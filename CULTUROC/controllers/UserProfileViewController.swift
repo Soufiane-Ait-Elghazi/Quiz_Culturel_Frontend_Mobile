@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserProfileViewController.swift
 //  CULTUROC
 //
 //  Created by Soufiane AIT ELGHZI on 4/20/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

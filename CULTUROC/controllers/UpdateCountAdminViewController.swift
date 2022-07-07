@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  UpdateCountAdminViewController.swift
 //  CULTUROC
 //
-//  Created by Soufiane AIT ELGHZI on 4/20/22.
+//  Created by BENDIR on 5/22/22.
 //  Copyright © 2022 Soufiane AIT ELGHZI. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class UpdateCountAdminViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

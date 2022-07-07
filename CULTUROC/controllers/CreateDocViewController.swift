@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  CreateDocViewController.swift
 //  CULTUROC
 //
-//  Created by Soufiane AIT ELGHZI on 4/20/22.
+//  Created by Soufiane Ait Elghazi on 5/21/22.
 //  Copyright © 2022 Soufiane AIT ELGHZI. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CreateDocViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
